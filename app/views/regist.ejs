@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>注册</title>
+    <%- include head %>
+</head>
+<body>
+    <h3>注册</h3>
+    <form action="/users/regist" method="POST">
+        <input type="text" name="name" placeholder="enter your name">
+        <input type="password" name="p1" placeholder="enter password">
+        <input type="password" name="p2" placeholder="ensure password">
+        <input type="submit" name="" value="Regist">
+    </form>
+    <div>
+        have a account, please  <a href="/login">log in</a> here.
+    </div>
+</body>
+</html>

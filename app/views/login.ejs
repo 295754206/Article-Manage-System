@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>登录</title>
+    <%- include head %>
+</head>
+<body>
+    <form action="/users/login" method="POST">
+        <input type="text" name="name" placeholder="enter your name">
+        <input type="password" name="p1" placeholder="enter password">
+        <input type="submit" name="" value="Login">
+    </form>
+    <div>
+        have not a account, please  <a href="/regist">regist</a> here.
+    </div>
+</body>
+</html>
